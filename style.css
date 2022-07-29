@@ -1,0 +1,125 @@
+.logodisp img {
+    position: absolute;
+    left: 30px;
+    max-width: 80px;max-height: 70px; 
+   
+}
+.list-item{
+   float: left;
+   list-style-type: none;
+   padding-left: 30px;
+   color: aliceblue;
+}
+.list-item{
+ position: relative;
+left: 120px;top: -275px;
+
+
+}
+button.button-small{
+    position: relative;
+    left: 250px;top: -275px;
+    color: darkorange;
+    background-color: rgb(65, 60, 60);
+    border-radius: 10px;
+
+
+}
+.hero-heading{
+
+ position: relative;
+ left: 40px;color: aliceblue;
+ top: -255px;font-size: 40px;
+
+
+}
+.container{
+
+    /* background-image: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+     background-color: rgb(79, 78, 78); 
+    position: relative;
+    top: 50px;
+    
+    height: 500px;width: 900px; */
+
+    /* background-image: url("./assets/pexels-ekaterina-bolovtsova-6077326.jpg"); */
+    background-color: gray;
+    width: 900px;height: 500px; 
+
+
+
+}
+/* .container{
+    background-image: url('./assets/pexels-ekaterina-bolovtsova-6077326.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: right 35% bottom 45%;
+  
+/*     
+  } */
+
+/* .middimg img{
+
+     display: flex; 
+   justify-content: center;
+
+   width: 900px;height: 200px;
+   /* line-height: 400px;  */
+   /* position: relative;
+   top: 220px; */
+   
+.container img{
+
+    position: relative;
+    width: 900px;height: 50%;
+    top: 200px;
+}
+.part{
+
+    position: absolute;
+ left: 40px;color: aliceblue;
+ top: 115px;font-size: 15px;left: 500px;
+
+}
+
+/* 
+   .corner.previous a {
+         background-color: #f1f1f1;
+          color: black;
+          text-decoration: none;
+          display: inline-block;
+           padding: 8px 16px;
+
+
+    }
+    .corner.next a {
+        background-color: #04AA6D;
+        color: white;
+        text-decoration: none;
+          display: inline-block;
+          padding: 8px 16px;
+    } */
+
+   .nextprev a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+        position: absolute;
+        left: 800px;top: 550;
+        height: 80px;width: 40px;
+        font-weight: bold;
+      }
+
+      
+.nextprev a.previous round{
+    background-color: #a71515;
+    color: rgb(170, 37, 37);
+    
+  }
+  
+ .nextprev a .next round{
+    background-color: rgb(216, 153, 45);
+    color: rgb(176, 93, 93);
+
+  }
